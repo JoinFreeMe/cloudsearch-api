@@ -1,0 +1,11 @@
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\bin\Debug\netcoreapp2.0\CloudSearch_CS_API.deps.json
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\bin\Debug\netcoreapp2.0\CloudSearch_CS_API.runtimeconfig.json
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\bin\Debug\netcoreapp2.0\CloudSearch_CS_API.runtimeconfig.dev.json
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\bin\Debug\netcoreapp2.0\CloudSearch_CS_API.dll
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\bin\Debug\netcoreapp2.0\CloudSearch_CS_API.pdb
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\obj\Debug\netcoreapp2.0\CloudSearch_CS_API.csprojAssemblyReference.cache
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\obj\Debug\netcoreapp2.0\CloudSearch_CS_API.csproj.CoreCompileInputs.cache
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\obj\Debug\netcoreapp2.0\CloudSearch_CS_API.AssemblyInfoInputs.cache
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\obj\Debug\netcoreapp2.0\CloudSearch_CS_API.AssemblyInfo.cs
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\obj\Debug\netcoreapp2.0\CloudSearch_CS_API.dll
+C:\Users\FreeMe\Desktop\CloudSearch\downloads\CloudSearch_CS_API\obj\Debug\netcoreapp2.0\CloudSearch_CS_API.pdb
