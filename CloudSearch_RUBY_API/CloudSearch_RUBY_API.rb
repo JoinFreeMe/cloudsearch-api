@@ -1,20 +1,18 @@
-require "net/http"
-require "uri"
+require 'net/http'
+require 'uri'
 
-uri = URI.parse("http://cloudsearch.cf/api/endpoint.php")
+uri = URI.parse("https://cloudsearch.cf/api/endpoint.php")
+request = Net::HTTP::Post.new(uri)
+request.set_form_data(
+  "domain" => "cloudsearch.cf",
+)
 
-# Shortcut
-response = Net::HTTP.post_form(uri, {"domain" => "cloudsearch.cf"})
+req_options = {
+  use_ssl: uri.scheme == "https",
+}
 
-# Full control
-http = Net::HTTP.new(uri.host, uri.port)
-
-request = Net::HTTP::Post.new(uri.request_uri)
-request.set_form_data({"domain" => "cloudsearch.cf"})
-
-# Tweak headers, removing this will default to application/x-www-form-urlencoded
-request["Content-Type"] = "application/json"
-
-response = http.request(request)
+response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
+  http.request(request)
+end
 
 puts response.body
